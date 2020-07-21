@@ -1,0 +1,24 @@
+{
+  "name": "xiaoye-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "xiaoye-pack": "./bin/xiaoye-pack.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.10.4",
+    "@babel/traverse": "^7.10.4",
+    "ejs": "^3.1.3",
+    "tapable": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.10.4"
+  }
+}
